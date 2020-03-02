@@ -4,6 +4,7 @@
 #
 
 import logging
+import logging.config as logging_config
 
 def get_logger_module(fname=None):
     fname = fname or 'logging.conf'
