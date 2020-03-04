@@ -32,7 +32,7 @@ class TestS3Access:
 
         # case 1
         # download a file in the TEST_BUCKET_NAME bucket to local_root_dir on the local.
-        s3_bucket_name =
+        s3_bucket_name = TEST_BUCKET_NAME
         s3_key = 'subdir/train_data.csv'
         local_root_dir = './test/test_data/s3_access/download_one_file/'
         local_file_path = None
