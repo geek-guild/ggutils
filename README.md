@@ -8,6 +8,11 @@
 $ pip install git+https://github.com/geek-guild/ggutils.git
 ```
 
+## Install
+
+```
+$ pip install git+https://github.com/geek-guild/ggutils.git
+```
 
 ### Install past or future release versions
 ```
