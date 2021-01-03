@@ -1,6 +1,6 @@
 # __init__.py
 #
-# Copyright 2018-2020 Geek Guild Co., Ltd.
+# Copyright 2018-2021 Geek Guild Co., Ltd.
 #
 
 import logging
@@ -13,7 +13,7 @@ def get_logger(fname=None):
     :return: logger of logging module
     '''
     # Get config file from [fname, 'logging.conf' 'ggutils_logging.ini']
-    fname_src_list = [fname, 'logging.conf' 'ggutils_logging.ini']
+    fname_src_list = [fname, 'logging.conf', 'ggutils_logging.ini']
     for fname in fname_src_list:
         if fname is None:
             continue
